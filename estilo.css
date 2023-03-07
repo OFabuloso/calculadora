@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+                            /*Formatação Raiz*/
+ 
+                            
+.fundo{
+    background:url(/champloo-best.gif) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Bangers', cursive;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1
+{
+    height: 100px;
+    width: 500px;
+    background: url(/h1-spike.gif) center center;
+    padding: 15px;
+
+    border: 2px solid rgba(0, 0, 255, 0.61);
+    border-radius: 25px 25px ;
+
+    font-size:25px;
+    font-family: 'Bangers', cursive;
+}
+
+.calculadora{
+    position: absolute;
+    border: 2px solid black;
+    background: linear-gradient(80deg, rgba(255, 0, 0, 0.249),rgba(0, 0, 0, 0.249));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    margin: 3px;
+    width: 100px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(31, 31, 31, 0.825);
+    border:none;
+    color: #fff;
+
+    transition: 0.3s;
+
+}
+.botao:hover{
+    background-color: #000000c5;
+}
+
+#resultado{
+    background-color: #fff;
+    width: 415px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    color: #000;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#resultado:hover{
+    scale: 1.2;
+}
